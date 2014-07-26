@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using CardCheck;
 
 namespace CreditCard_Check
 {
@@ -46,10 +45,9 @@ namespace CreditCard_Check
             try
             {
 
-                if (!CardCheck.CardCheck.CheckNumber(cardNumber))
+                if (!CardCheck.CheckNumber(cardNumber))
                 {
                     OutputBox.Text = "*** INVALID CARD ***";
-
                     return;
                 }
                 OutputBox.Text = CardData.BankInfo(cardNumber);
