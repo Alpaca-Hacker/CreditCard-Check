@@ -16,6 +16,7 @@ namespace CardCheckTest
             Assert.IsTrue(result);
 
         }
+
         [TestMethod]
         public void NumberValid15()
         {
@@ -25,6 +26,7 @@ namespace CardCheckTest
             Assert.IsTrue(result);
 
         }
+
         [TestMethod]
         public void NumberValid3()
         {
@@ -34,6 +36,7 @@ namespace CardCheckTest
             Assert.IsTrue(result);
 
         }
+
         [TestMethod]
         public void NumberInvalid16()
         {

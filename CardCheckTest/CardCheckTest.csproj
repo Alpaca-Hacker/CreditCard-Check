@@ -52,12 +52,16 @@
   <ItemGroup>
     <Compile Include="CardCheckTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CardDataTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CreditCard Check\CreditCardChecker.csproj">
       <Project>{e5e609f3-d684-4a95-a4c5-6478def0bdd7}</Project>
       <Name>CreditCardChecker</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestData.txt" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

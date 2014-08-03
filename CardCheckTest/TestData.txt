@@ -1,0 +1,9 @@
+﻿ //TEST DATA:
+            //
+            //bankData.Add("465943", "HSBC Bank (UK) Visa Debit, NO Cheque Guarantee ");
+            //bankData.Add("465945", "HSBC(UK) Plus Visa Debit Card");
+            //bankData.Add("4779", "Sainbury's Bank");
+            //bankData.Add("477915", "Polish Bank");
+            //bankData.Add("512025", "Orchard Bank Credit Card issued by HSBC");
+            //bankData.Add("5122", "First Gulf Mastercard");
+            //bankData.Add("123456", "First Bank of Harpole");
